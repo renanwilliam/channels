@@ -1,11 +1,11 @@
 <?php
 
-namespace NotificationChannels\GoogleHangoutsChat;
+namespace NotificationChannels;
 
 use GuzzleHttp\Client;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Arr;
-use NotificationChannels\GoogleHangoutsChat\Exceptions\CouldNotSendNotification;
+use NotificationChannels\Exceptions\CouldNotSendNotification;
 use Psr\Http\Message\ResponseInterface;
 
 class HangoutsChatChannel
