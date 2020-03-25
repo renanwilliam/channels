@@ -1,11 +1,11 @@
 <?php
 
-namespace Illuminate\Notifications;
+namespace NotificationChannels;
 
 use GuzzleHttp\Client as HttpClient;
+use Illuminate\Notifications\ChannelManager;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\ServiceProvider;
-use NotificationChannels\HangoutsChatChannel;
 
 class HangoutsChatChannelServiceProvider extends ServiceProvider
 {
