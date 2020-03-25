@@ -3,9 +3,9 @@
 namespace Illuminate\Notifications;
 
 use GuzzleHttp\Client as HttpClient;
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Notification;
-use NotificationChannels\GoogleHangoutsChat\HangoutsChatChannel;
+use Illuminate\Support\ServiceProvider;
+use NotificationChannels\HangoutsChatChannel;
 
 class HangoutsChatChannelServiceProvider extends ServiceProvider
 {
